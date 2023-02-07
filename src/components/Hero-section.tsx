@@ -8,7 +8,7 @@ function HeroSection() {
         style={{
           backgroundImage: "url(images/chelsea-fern-WJRZNL7rDF8-unsplash.jpg)",
         }}
-        className={`h-[100vh] w-full filter brightness-50 bg-center bg-cover `}
+        className={`h-[100vh] w-full filter brightness-50 bg-center bg-cover hidden s:block`}
       ></div>
       <NewArrival />
       <ServiceAd />

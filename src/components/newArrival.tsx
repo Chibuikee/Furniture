@@ -1,11 +1,11 @@
 export function NewArrival() {
   return (
-    <div className="absolute z-10 top-[186px] right-0 bg-[rgba(223,233,244,1)] w-[44.7222%] p-10 ">
+    <div className="mt-[90px] s:mt-[initial] s:absolute z-10 s:top-[186px] s:right-0 bg-[rgba(223,233,244,1)] s:w-[44.7222%] p-5 pc:p-10 ">
       <h5>New Arrival</h5>
-      <h2 className="text-[#054C73] text-[3.25rem] leading-[65px]">
+      <h2 className="max-w-[300px] s:w-[initial] text-[#054C73] text-[1.85rem] font-bold mmd:text-[2.65rem] pc:text-[2.25rem] leading-[35px] lg:leading-[65px]">
         Discover Our New Collection
       </h2>
-      <p className="text-[#333333] text-[1rem]">
+      <p className="text-[#333333] text-[1rem] max-w-[380px]">
         The importance of international judicial cooperation in trans-border
         litigation cannot be over emphasised.
       </p>

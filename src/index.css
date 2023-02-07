@@ -18,7 +18,7 @@ code {
 /* * {
   outline: 1px red solid;
 } */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   #check:checked ~ .menu-main {
     background-color: chartreuse;
     display: none;

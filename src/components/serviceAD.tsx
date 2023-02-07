@@ -6,7 +6,7 @@ type servicetype = {
 };
 export function ServiceAd() {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between bg-[#F2F5FF] p-5">
       {ADdata.map((item: servicetype, key) => (
         <div key={key}>
           <h5>{item.name}</h5>
